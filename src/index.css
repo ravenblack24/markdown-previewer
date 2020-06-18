@@ -1,3 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Custom properties */
+:root {
+  --ff-primary: 'Source Sans Pro', sans-serif;
+
+  --clr-light: #FFFBFE;
+  --clr-dark: #565254;
+  --clr-accent: #7A7D7D;
+
+  --background: #FFFBFE;
+
+  --fw-reg: 400;
+  --fw-bold: 900;
+
+  --fs-h1: 1rem;
+
+  --bs-default: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--clr-dark);
+}
+
+/* Typography */
+
+h1 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  padding: 0;
+  margin: 0;
+}
+
+/* Sections */
+
+section {
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+  display: grid;
+  box-shadow: var(--bs-default);
+}
+
+.section--editor {
+  width: 90vw;
+  grid-template-rows: 2em 15em;
+}
+
+.section--preview {
+  width: 95vw;
+  grid-template-rows: 2em auto;
+}
+
+@media (min-width: 65em) {
+  .section--editor {
+    width: 50vw;
+  }
+  
+  .section--preview {
+    width: 60vw;
+  }
+}
+
+/* Section header */
+
+header {
+  display:grid;
+  grid-template-columns: 2em auto 1.5em;
+  height: 2em;
+  background: var(--clr-accent);
+  padding: 0.45em 0 0 0.5em;
+  margin: 0;
+  color: #fff;
+  border: 0.05em solid #000;
+  box-shadow: var(--bs-default);
+              
+  z-index: 2;
+}
+
+.icon {
+  font-size: var(--fs-h1);
+}
+
+.icon-action:hover {
+  color: var(--clr-dark);
+  cursor: pointer;
+}
+
+/* Editor / Preview */
+
+#editor,
+#preview {
+  background-color: var(--clr-light);
+  margin: 0;
+  resize: none;
+  padding: 0.5em;
+  border: 0.05em solid #000;
+  border-top: 0;
+}
+
+
+
+/**
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +122,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*/
