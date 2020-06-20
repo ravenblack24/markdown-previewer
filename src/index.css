@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -14,7 +16,6 @@
 
   --background: #FFFBFE;
 
-  --fw-reg: 400;
   --fw-bold: 900;
 
   --fs-h1: 1rem;
