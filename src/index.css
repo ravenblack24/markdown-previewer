@@ -48,7 +48,8 @@ blockquote {
   border-left: 0.25em solid #000;
   padding-left: 0.5em
 }
-code {
+code,
+pre {
   background-color: var(--clr-dark);
   color: var(--clr-light);
 }
@@ -157,8 +158,8 @@ header {
 #preview {
   background-color: var(--clr-light);
   margin: 0;
- /** resize: none;*/
   padding: 0.5em;
   border: 0.05em solid #000;
   border-top: 0;
+  outline:0;
 }
