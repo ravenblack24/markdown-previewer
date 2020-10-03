@@ -33,7 +33,7 @@ How about some **list items** next:
 
 ### Last _but not least_:
 
-![React Logo w/ Text](https://goo.gl/Umyytc)`;
+![React Logo w/ Text](https://bit.ly/3jrTDTC)`;
 
 export default class MarkDownPreviewer extends React.Component {
     constructor(props) {
