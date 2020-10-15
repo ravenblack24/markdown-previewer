@@ -9,7 +9,7 @@
 * [Contact](#contact)
 
 ## Status
-Project is complete and an [interactive demo is available here](https://ravenblack24.github.io/markdown-previewer/).
+An [interactive demo is available here](https://ravenblack24.github.io/markdown-previewer/).
 
 ## General info
 This app was built to satisfy and subsequently validated against the following User Stories:
